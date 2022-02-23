@@ -1,0 +1,108 @@
+*
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+.auth_input 
+{
+  padding: 7px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input_re
+{
+    padding: 7px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.del_button
+{
+    background: #fff;
+    border: 0px solid black;
+    cursor: pointer;
+}
+
+.addName
+{
+    background: #fff;
+    border: 0px solid black;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+}
+
+.AuthorNames
+{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.title
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.isl {
+  margin: 100px 300px;
+  padding: 10px;
+  align-items: center;
+}
+
+.sub_button
+{
+  background-color: #008ae6;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.navbar
+{
+    margin-top: 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    background: #F2FFFB;
+    width: 95%;
+    height: 70px;
+}
+
+.container
+{
+    padding-top: 25px;
+}
+
+.navbar a 
+{
+    float: left;
+    text-decoration: none;
+    padding-left: 50px;
+    font-weight: 700;
+    color: #000;
+}
+
+.navbar a:hover
+{
+    color: #008EFF;
+}
+
+.finalText
+{
+    padding: 7px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+

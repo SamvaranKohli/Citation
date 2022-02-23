@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <script type="text/JavaScript" src="citi.js"></script>
+</head>
+<body>
+
+    <div class="isl">
+
+        <div class="navbar">
+
+            <div class="container">
+                
+                <a href="#">AUTHORED BOOK</a>
+                <a href="#">EDITED BOOKS</a>
+                <a href="#">ARTICLES/ESSAYS</a>
+
+            </div>  
+        </div>
+
+        <div class="AuthorNames">
+        
+            <div id="AuthorNames_input">
+
+                <div class="title" style="margin-bottom: -10px;">
+
+                    <h5>First Name</h5>
+                    <h5 style="margin-left: 130px;">Last Name</h5>
+
+                </div>
+                
+                <input type='text' id='fName_0' class='auth_input' style='margin-right: 10px; margin-bottom: 10px;'>
+                <input type='text' id='lName_0' class='auth_input'> 
+            </div>
+
+            <button onclick="createNewElement()" class="addName">+ Add Author Name</button>
+
+        </div>
+
+        <br>
+        <input type="text" value="" id="title_of_book" placeholder="Title of Book" class="input_re" style="width: 300px; margin-top: 30px;"><br>
+        <input type="text" value="" id="p.no." placeholder="p.no." class="input_re">
+        <input type="text" value="" id="Publisher" placeholder="Publisher" class="input_re"><br>
+        <input type="text" value="" id="place_of_publication" placeholder="Place of Publication" class="input_re" style="width: 300px;"><br>
+        <input type="text" value="" id="year" = placeholder="year of publication" class="input_re">
+        <input type="text" value="" id="edition" = placeholder="edition" class="input_re"><br>
+
+        <br>
+        <button onclick="check()" type="submit" class="sub_button">Submit</button>
+
+        <p id="final_text" class="finalText"></p>
+
+    </div>
+
+</body>
+</html>
